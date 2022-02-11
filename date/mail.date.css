@@ -1,0 +1,40 @@
+.mail{
+    padding: 30px;
+    
+}
+
+.none-mail{
+    background: #b985db;
+    padding: 20px;
+    width: auto;
+    height: auto;
+    border-radius: 5px;
+    margin: 20px;
+    
+}
+
+.mail .option{
+    display: flex;
+    float: right;
+    margin-top: -70px;
+    margin-right: 20px;
+}
+
+.mail .option div{
+    margin: 10px;
+}
+
+.mail .none-mail h2{
+    width: 800px;
+}
+
+.mail .option div a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.mail .option div i{
+    font-size: 30px;
+}
+

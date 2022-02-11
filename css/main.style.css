@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@300&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+::-webkit-scrollbar
+{
+    width: 0em;
+}
+
+body{
+    font-family: 'poppins';
+}
+
+.center{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.left-ber{
+    height: 100vh;
+    position: fixed;
+    width: 120px;
+    background: rgb(158, 62, 255);
+}
+
+
+.left-ber a{
+    text-decoration: none;
+    color: white;
+}
+
+.left-ber li{
+    list-style: none;
+}
+
+.left-ber a li i{
+    font-size: 30px;
+}
+
+.left-ber a li h1{
+    font-size: 20px;
+}
+
+.left-ber a .hover-item:hover{
+    color: black;
+}
+
+/*
+plus
+
+*/
+
+.left-ber .plus a li i{
+    font-size: 65px;
+    margin: 25px;
+}
+
+
+.left-ber .plus a li i:hover{
+    color: rebeccapurple;
+}
+
+.plus-phone{
+    display: none;
+}
+
+.menu-phone{
+    display: none;
+}
+
+.title-phone{
+    display: none;
+}
+
+
+.account-site-phone{
+    display: none;
+}
+
+.search-ber-tab{
+    display: none;
+}
+
+.right-section{
+    margin-left: 100px;
+}
